@@ -35,6 +35,7 @@ main {
     margin: 0;
     flex-basis: 40%;
     position: relative;
+    
 }
 
 .robo {
@@ -43,6 +44,25 @@ main {
     position: absolute;
     left: -20%;
     top: -5%;
+}
+
+.botoes {
+    position: relative;
+    right: 5%;
+    bottom: 10%;
+    display: flex;
+}
+
+.alterar {
+   
+    margin-top: 1em;
+    text-transform: uppercase;
+    padding: 0.2em 1em;
+    color: var(--main-branco);
+    background: rgba(0,0,0,0.6);
+    clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
+    border-left: var(--main-cinza);
+    
 }
 
 .titulo {
@@ -231,3 +251,5 @@ main {
         margin: 10vh auto;
     }
 }
+
+
